@@ -1,0 +1,83 @@
+<!-- Copyright (c) 2013 Bootsnipp.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+
+
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>Fanny Quindot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script> 
+  $(function(){
+    $("#header").load("header.html"); 
+    $("#navbar").load("navbar.html"); 
+    $("#footer").load("footer.html"); 
+  });
+  </script> 
+
+</head>
+<body>
+
+    <div class="header" id="header"></div>
+
+    <div class="row">
+      <!-- Menu -->
+      <div class="side-menu" id="navbar"></div>
+
+      <!-- Main Content -->
+      <div class="container-fluid">
+        <div class="side-body">
+        <h1>Analyse des besoins</h1>
+        
+          <h2>Contraintes organisationnelles</h2>
+
+          <p>La BCET sera fermée au public de fin juin à mi-septembre 2017, permettant à son personnel de se concentrer sur le projet de plan de classement et le déménagement. Avant cette fermeture et après la rentrée académique, le personnel devra jongler entre le projet et les tâches quotidiennes de la bibliothèque.</p>
+
+          <p>Durant la période de fermeture prévue et à tout moment en-dehors de cette période (qu'il s'agisse d'une période d'ouverture normale ou d'une nouvelle période de fermeture), l'ensemble des documents doit rester accessible au public.</p>
+
+          <p>Il n'y a pas réellement de contrainte de temps pour terminer le projet.</p>
+
+          <h2>Contraintes techniques</h2>
+
+          <h3>L'espace disponible</h3>
+
+          <p>L'espace disponible à la BCET pourrait poser problème. En effet, les livres sont actuellement rangés par taille et les étagères espacées en conséquence. Quand le nouveau classement commencera à entrer en application, toutes les tailles d'ouvrages vont être mélangées, ce qui implique que toutes les étagères devront être suffisamment espacées pour accueillir des ouvrages de taille in-4\degres. Cela va réduire le nombre d'étagères et donc la quantité d'ouvrages qu'il sera possible de stocker.</p>
+
+          <h3>Le SIGB -- Virtua</h3>
+
+          <p>L'idéal serait de pouvoir changer toutes les cotes de façon plus ou moins automatique, sans passer par un changement manuel notice d'exemplaire par notice d'exemplaire. Il faut s'assurer que ce genre d'opération est bien possible.</p>
+
+
+          <h2>Contraintes normatives</h2>
+
+          <p>Le plan de classement de la Library of Congress n'est pas une norme mais un standard duquel il faudra se rapprocher au maximum lors du développement du nouveau plan de classement du fonds de la BCET.</p>
+
+          <h2>Contraintes humaines</h2>
+
+          <p>Le personnel de la BCET se compose de son directeur (André Deridder), d'une bibliothécaire à temps partiel (Nathalie Stevens) et d'une jobiste (Fanny Quindot).</p>
+
+          <p>En raison de sa dépendance de la BFLT, la BCET bénéficie également du support du personnel de celle-ci pour mener à bien certaines tâches de grande ampleur comme le déménagement.</p> 
+
+          <p>En plus, les bibliothèques disposent d'un service informatique qui peut participer à la réalisation d'opérations plus techniques.</p>
+
+          <h2>Contraintes financières</h2>
+
+          <p>La BCET dispose d'un budget suffisant pour mener à bien le projet.</p>
+       </div>
+     </div>
+   </div>
+   <div class="footer" id="footer"></div>
+ </body>
+ </html>

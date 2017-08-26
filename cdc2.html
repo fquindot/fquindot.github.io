@@ -1,0 +1,60 @@
+<!-- Copyright (c) 2013 Bootsnipp.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+
+
+<!DOCTYPE html>
+<html>
+<head>  
+  <title>Fanny Quindot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script> 
+  $(function(){
+    $("#header").load("header.html"); 
+    $("#navbar").load("navbar.html"); 
+    $("#footer").load("footer.html"); 
+  });
+  </script> 
+
+</head>
+<body>
+
+    <div class="header" id="header"></div>
+
+    <div class="row">
+      <!-- Menu -->
+      <div class="side-menu" id="navbar"></div>
+
+      <!-- Main Content -->
+      <div class="container-fluid">
+        <div class="side-body">
+          <h1>Grande étapes du projet</h1>
+
+          <ul>
+            <li>Elaguer ou envoyer dans la bonne bibliothèque les documents qui ne sont plus pertinents pour faire partie du fond.</li>
+            <li>Délimiter une partie "prioritaire" du fonds qui sera accessible directement pour les usagers dans la nouvelle localisation et une partie "non prioritaire" qui sera stockée en magasin ou en accès direct selon l'espace disponible.</li>
+            <li>Etablir un nouveau plan de classement pour le fonds de la BCET qui s'approche le plus possible du plan de classement de la Library of Congess tout en étant suffisamment proche de celui de la BFLT pour bien s'y intégrer.</li>
+            <li>Attribuer une nouvelle cote à tous les ouvrages soit en la créant de toute pièces, soit en se basant sur la cote LC récupérée lors de l'import de certaines notices.</li>
+            <li>Changer les cotes des ouvrages dans leur notice d'exemplaire dans Virtua et sur l'étiquette apposée sur l'ouvrage.</li>
+            <li>Déplacer physiquement les ouvrages au sein de la bibliothèque.</li>
+            <li>Emballer les ouvrages dans des caisses numérotées.</li>
+            <li>Déballer les caisses dans l'ordre de numérotation et ranger les ouvrages dans la nouvelle localisation.</li>
+          </ul>
+
+       </div>
+     </div>
+   </div>
+   <div class="footer" id="footer"></div>
+ </body>
+ </html>
